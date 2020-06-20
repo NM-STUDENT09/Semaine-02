@@ -1,6 +1,171 @@
-body{
-  width: 100%
+/* ==================================================
+        SEMAINE 02 - Exercice 2
+        Deuxième page HTML & CSS
+        Curriculum Vitae
+  ================================================== */
+body {
+  width: 100%;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  height: auto;
 }
-a{
-  
+a {
+  color: blue;
+}
+div.col1 {
+  width: 40%;
+  /* border: 1px solid red; */
+}
+div.col2 {
+  width: 58%;
+  /* border: 1px solid green; */
+  color: grey;
+}
+
+/* Structure  --------------------------------------- */
+/*body {
+  background-color: rgb(249, 249, 249);
+  color: rgb(27, 29, 38);
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: auto;
+}*/
+.main-section {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  height: auto;
+  /* border: 1px solid red; */
+}
+
+div.first-titles-container {
+  padding: 50px;
+  width: 30%;
+  border: 1px solid green;
+}
+div.photo {
+  /* border: 1px solid red; */
+  margin: 0;
+}
+div.bloc_gauche {
+  background-color: #203572;
+  color: white;
+  padding-bottom: 30px;
+}
+div.bloc_droite {
+  background-color: white;
+  color: grey;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+div.bloc {
+  margin-top: 60px;
+  /*border: 1px solid palegreen;*/
+  padding: 0 30px;
+}
+div.profil {
+  margin-top: 60px;
+  padding: 0 25px;
+}
+.text-container-first {
+  display: flex;
+  justify-content: flex-start;
+  border: 3px solid #3fc7df;
+}
+
+/* Style texte --------------------------------------- */
+/* Bloc Gauche */
+h1,
+h2,
+h3 {
+  color: #3fc7df;
+}
+h3.job {
+  padding-left: 30px;
+  padding-top: 0;
+}
+h1 {
+  margin: 0 0 0 10px;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+h2 {
+  font-size: 30px;
+  color: black;
+}
+h3 {
+  font-size: 14px;
+  font-weight: lighter;
+  color: white;
+  /*padding-left: 20px;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  /*margin-left: 10px;*/
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+h4,
+h5 {
+  margin-bottom: 0;
+}
+h4 {
+  padding: 0 10px 0px 0px;
+  color: #3fc7df;
+  margin-top: 10px;
+}
+h5 {
+  margin-top: 0;
+  padding: 0 10px 10px 0px;
+  color: #203572;
+  font-weight: lighter;
+}
+.metier {
+  padding-top: 0px;
+}
+.rubrique {
+  color: #3fc7df;
+  font-size: 15px;
+  font-weight: bold;
+}
+.rubrique,
+.rubrik {
+  color: #3fc7df;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+.rubrik {
+  background-color: #203572;
+  padding-left: 5px;
+  margin: 0;
+}
+p {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  line-height: 120%;
+  /* border: 1px solid grey; */
+}
+p.pitch {
+  text-align: justify;
+}
+ul {
+  /* border: 1px solid purple; */
+  margin-top: 0;
+  margin-right: 5px;
+  padding-left: 15px;
+}
+ul.rubrik {
+}
+
+/* Bloc Droite */
+
+/* Images  --------------------------------------- */
+img {
 }
